@@ -11,6 +11,10 @@ A collection of custom Claude Code skills tailored for **Go backend development*
 | [fix-bug](skills/fix-bug/) | Systematic bug debugging — reproduce, isolate, fix, verify |
 | [k8s-operator](skills/k8s-operator/) | Operator development — controller-runtime, CRD, Webhook |
 | [pr-prep](skills/pr-prep/) | Pre-PR checklist — auto-detect Go/Java, build, test, lint |
+| [req-dev](skills/req-dev/) | 需求开发 — 从模糊需求到可落地的方案和任务拆解 |
+| [code-refactor](skills/code-refactor/) | 代码重构 — 改善结构、可读性、可维护性 |
+| [code-review-zh](skills/code-review-zh/) | 代码检视 — 逐层审查正确性、健壮性、性能 |
+| [arch-design](skills/arch-design/) | 方案设计 — 架构决策、API/CRD 设计、ADR |
 
 ## Installation
 
@@ -20,7 +24,7 @@ A collection of custom Claude Code skills tailored for **Go backend development*
 2. Add repository:
    - Owner: `your-github-username`
    - Name: `my-claude-skills`
-   - Branch: `main`
+   - Branch: `master`
 3. Refresh the skills list
 4. Click **Install** on each skill you want
 
