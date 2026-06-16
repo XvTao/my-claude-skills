@@ -43,6 +43,7 @@ System prompt presets for CC Switch. Import via **Prompts** panel → **+** → 
 
 | Prompt | Description |
 |--------|-------------|
+| [combined](prompts/combined.md) | 综合提示词 — 需求开发、方案设计、代码重构、代码检视（推荐） |
 | [req-dev](prompts/req-dev.md) | 需求开发 — 需求澄清、技术方案、任务拆解 |
 | [code-refactor](prompts/code-refactor.md) | 代码重构 — 改善结构、可读性，不改业务逻辑 |
 | [code-review](prompts/code-review.md) | 代码检视 — P0/P1/P2 分级审查 |
