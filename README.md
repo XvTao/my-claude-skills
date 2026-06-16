@@ -37,6 +37,17 @@ git clone https://github.com/your-github-username/my-claude-skills.git
 ln -sf "$(pwd)/my-claude-skills/skills"/* ~/.claude/skills/
 ```
 
+## Prompts
+
+System prompt presets for CC Switch. Import via **Prompts** panel → **+** → paste content → **Save**.
+
+| Prompt | Description |
+|--------|-------------|
+| [req-dev](prompts/req-dev.md) | 需求开发 — 需求澄清、技术方案、任务拆解 |
+| [code-refactor](prompts/code-refactor.md) | 代码重构 — 改善结构、可读性，不改业务逻辑 |
+| [code-review](prompts/code-review.md) | 代码检视 — P0/P1/P2 分级审查 |
+| [arch-design](prompts/arch-design.md) | 方案设计 — 架构决策、ADR、CRD 设计 |
+
 ## License
 
 MIT
